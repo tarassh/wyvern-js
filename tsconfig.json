@@ -16,6 +16,7 @@
         "declaration": true,
         "experimentalDecorators": true,
         "noImplicitReturns": true,
+        "noImplicitAny": false,
         "pretty": true,
         "strict": true
     }

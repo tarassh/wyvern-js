@@ -15,6 +15,7 @@ export declare type SyncMethod = (...args: any[]) => any;
 export declare enum Network {
     Main = "main",
     Rinkeby = "rinkeby",
+    Custom = "custom",
 }
 export declare enum SaleKind {
     FixedPrice = 0,

@@ -266,7 +266,7 @@ export class WyvernProtocol {
         }
 
         const mask = maskArr.reduce((x, y) => x + y, '');
-        const ret = [];
+        const ret: any[] = [];
         /* Encode into bytes. */
         for (const char of mask) {
           const byte = char === allowReplaceByte ? 255 : 0;

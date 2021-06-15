@@ -18,6 +18,7 @@ export type SyncMethod = (...args: any[]) => any;
 export enum Network {
     Main = 'main',
     Rinkeby = 'rinkeby',
+    Custom = 'custom',
 }
 
 export enum SaleKind {
